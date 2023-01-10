@@ -1,0 +1,35 @@
+#calculator{
+    height: 500px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 6;
+    grid-template-columns: 4;
+    background-color: lightgray;
+    border-radius: 2%;
+    padding: 0.5%;
+}
+#calculator div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#screen input{
+    width: 100%;
+    font-size: 35px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.buttons button{
+    width: 50%;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10%;
+    border: 0.5px solid gray;
+    cursor: pointer;
+    color: #183153;
+}
+.buttons button:hover{
+    opacity: 80%;
+}
